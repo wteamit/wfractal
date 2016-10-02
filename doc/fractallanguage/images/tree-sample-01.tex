@@ -1,0 +1,20 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz-qtree}
+
+\begin{document}
+\begin{tikzpicture}[level 1/.style={level distance=1.5cm}]
+
+ %\Tree [.S [.NP [.Det the ] [.N cat ] ] [.VP [.V sat ] [.PP [.P on ] [.NP [.Det the ] [.N mat ] ] ] ] ]
+\Tree
+  [.Begin
+    [.Command\textsubscript{1}
+      [.Arg\textsubscript{1} ]
+      [.Arg\textsubscript{2} ]
+      [.\ldots{} ]
+      [.Arg\textsubscript{n} ]
+    ]
+    [.Command2 ]
+  ]
+\end{tikzpicture}
+\end{document}
+
