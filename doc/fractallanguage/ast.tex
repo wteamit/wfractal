@@ -4,12 +4,9 @@
 
 In this chapter we'll analyse the structure of the Abstract Syntax Tree used by the program in order to represent the fractal. The AST is a representation of the source code that describe the fractal.\footnote{Or coloring formula, transformation etc\ldots{}}
 
-\section{Trees and Maps}
+\section{AST}
 
-A Tree is a data structure that contains nodes and leafs. A special node called \emphasis{root} is the top-level node of the tree, its starting point. The root is linked to many nodes, and the nodes to other nodes themselves, until a leaf is reached. A leaf is simply a node with no children.
-
-Another important structure is the \emphasis{map}. The map allows to store all variables defined in the script code, and the AST can access to it.
-
+An \emphasis{Abstract Syntax Tree} is a data structure used of representing the parsing result of a source file. This is the
 \begin{figure}
 \centering
 \includestandalone[width=0.6\linewidth]{tree-sample-01}
