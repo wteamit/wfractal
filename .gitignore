@@ -44,3 +44,6 @@ temp/
 *.pdf
 *.toc
 
+# Misc
+*.user
+
